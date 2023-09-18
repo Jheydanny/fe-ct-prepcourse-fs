@@ -1,36 +1,51 @@
 /*⚠️ NO MODIFIQUES EL NOMBRE DE LAS DECLARACIONES ⚠️*/
 /*2️⃣ EJERCICIO 02 2️⃣*/
 
-function devolverString(string) {
+function devolverString(Hola) {
    // Debe retornar un string.
-   // Tu código:
+   // Tu código: 
+   return (Hola)
 }
 
 // ⛔️ "X" e "Y" son números.
 
 function suma(x, y) {
    // Retorna el resultado de su suma.
-   // Tu código:
+   // Tu código:s
+   return x + y 
+   
+   const resultado = suma(5 + 9)
 }
 
 function resta(x, y) {
    // Retorna el resultado de la resta.
    // Tu código:
+   return x - y
+
+   const resultado = resta(9 - 8)
 }
 
 function divide(x, y) {
    // Retorna el resultado de su división.
    // Tu código:
+   return x / y 
+
+   const resultado = divide(10 / 2)
 }
 
 function multiplica(x, y) {
    // Retorna el resultado de su multiplicación.
    // Tu código:
+   return x * y 
+
+   const resultado = multiplica(8 * 8)
 }
 
 function obtenerResto(x, y) {
    // Obten el resto de la división de "x" entre "y".
    // Tu código:
+   return x % y 
+
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
